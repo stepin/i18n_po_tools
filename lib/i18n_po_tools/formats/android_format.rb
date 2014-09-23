@@ -14,8 +14,8 @@ module I18nPoTools
       end
 
       def write(output_filename, data)
-        content  = "<!-- "+banner_msg+" -->\n"
-        content += "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n"
+        content  = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n"
+        content += "<!-- "+banner_msg+" -->\n"
         content += "<resources>\n\n"
         data.each_pair do |k,v|
           content += "    <string name=\""+(k.nil? ? '':k)+"\">"+(v.nil? ? '':Nokogiri::HTML.fragment(v).to_html)+"</string>\n"
