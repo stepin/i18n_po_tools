@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+$KCODE="UTF8" if RUBY_VERSION < "1.9"
+
+require 'i18n_po_tools'
+require 'i18n_po_tools/cli'
+
+I18nPoTools::CLI.start
