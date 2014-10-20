@@ -18,6 +18,7 @@ module I18nPoTools
       end
 
       def write_file(output_filename, data)
+	FileUtils.mkdir_p File.dirname(output_filename)
         if output_filename.present?
           File.open(output_filename, "w:"+file_encoding) do |f|
             f << data
