@@ -4,6 +4,7 @@ require 'i18n_po_tools/formats/basic_flat_yaml_format'
 require 'i18n_po_tools/formats/po_format'
 require 'i18n_po_tools/formats/ios_format'
 require 'i18n_po_tools/formats/android_format'
+require 'i18n_po_tools/formats/properties_format'
 require 'i18n_po_tools/formats/csv_format'
 
 module I18nPoTools
@@ -23,6 +24,8 @@ module I18nPoTools
           IosFormat.new
         when :android
           AndroidFormat.new
+        when :properties
+          PropertiesFormat.new
         when :csv
           CsvFormat.new
         end

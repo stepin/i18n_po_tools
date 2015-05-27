@@ -15,13 +15,9 @@ Gem::Specification.new do |spec|
 Utils to convert translations from source formats to PO/POT Gettex and vise versa.
 It allows to separate translations from development of apps.
 
-Supported input/output formats:
-* iOS and OS X String Resources
-* Android String XML
-* Gettext PO/POT
-* Rails YAML
-* Basic flat YAML
-* CVS for easy exchange with other apps
+Supported input/output formats: iOS and OS X String Resources, Android String XML,
+Gettext PO/POT, Rails YAML, Basic flat YAML, Java properties,
+CVS for easy exchange with other apps.
 
 Direct converation between any formats supported.
 
@@ -39,6 +35,8 @@ EOF
   spec.add_runtime_dependency "get_pomo", "= 0.9.0"
   #for blank?/present?
   spec.add_runtime_dependency "activesupport", "~> 4.1.6"
+  #for Java .properties file format
+  spec.add_runtime_dependency "java-properties", "~> 0.0.2"
 
 
   spec.add_development_dependency "bundler", "~> 1.3"

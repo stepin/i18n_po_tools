@@ -8,6 +8,7 @@ Supported input/output formats:
 * [Gettext PO/POT][http://www.gnu.org/savannah-checkouts/gnu/gettext/manual/html_node/PO-Files.html] (format:po and pot)
 * [Rails YAML][http://guides.rubyonrails.org/i18n.html] (format: rails-yaml)
 * Basic flat YAML (format: flat-yaml)
+* Java properties (format: properties)
 * CVS for easy exchange with other apps (format: csv-yaml)
 
 Direct converation between any formats supported.
@@ -43,9 +44,9 @@ Options
     -b, --base FILENAME              base language input filename (only for po output mode)
     -o, --output FILENAME            output filename (default STDOUT)
     -f, --from FORMAT                input file format (default is autodetect by ext)
-                                     (rails_yaml, flat_yaml, po, pot, ios, android, csv)
+                                     (rails_yaml, flat_yaml, po, pot, ios, android, properties, csv)
     -t, --to FORMAT                  output file format (default is autodetect by ext)
-                                     (rails_yaml, flat_yaml, po, pot, ios, android, csv)
+                                     (rails_yaml, flat_yaml, po, pot, ios, android, properties, csv)
     -l, --language LANGUAGE          input file language (only for po or rails_yaml output mode)
     -h, --help                       help
 

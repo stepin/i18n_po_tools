@@ -11,7 +11,7 @@ require "i18n_po_tools/core_ext/dotted_hash"
 require "i18n_po_tools/formats"
 
 module I18nPoTools
-  FORMATS = %w[rails_yaml flat_yaml po pot ios android csv]
+  FORMATS = %w[rails_yaml flat_yaml po pot ios android properties csv]
 
   EXT_TO_FORMAT = {
     :yml => :rails_yaml,
@@ -19,6 +19,7 @@ module I18nPoTools
     :pot => :pot,
     :strings => :ios,
     :xml => :android,
+    :properties => :properties,
     :csv => :csv
   }
 end

@@ -15,6 +15,7 @@ module I18nPoTools
         opt.separator  "* Gettext PO/POT"
         opt.separator  "* Rails YAML"
         opt.separator  "* Basic flat YAML"
+        opt.separator  "* Java properties"
         opt.separator  "* CVS for easy exchange with other apps"
         opt.separator  ""
         opt.separator  "Direct converation between any formats supported."

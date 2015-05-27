@@ -8,6 +8,7 @@
 * [Gettext PO/POT][http://www.gnu.org/savannah-checkouts/gnu/gettext/manual/html_node/PO-Files.html] (формат: po или pot)
 * [Rails YAML][http://guides.rubyonrails.org/i18n.html] (формат: rails-yaml)
 * Простой плоский формат YAML (формат: flat-yaml)
+* Java properties (формат: properties)
 * CVS для упрощенного обмена с другими программами (формат: csv-yaml)
 
 Возможна прямая конвертация между любыми поддерживаемыми форматами.
@@ -41,9 +42,9 @@ Rails YAML и PO поддерживают специальный вид стро
     -b, --base FILENAME              base language input filename (only for po output mode)
     -o, --output FILENAME            output filename (default STDOUT)
     -f, --from FORMAT                input file format (default is autodetect by ext)
-                                     (rails_yaml, flat_yaml, po, pot, ios, android, csv)
+                                     (rails_yaml, flat_yaml, po, pot, ios, android, properties, csv)
     -t, --to FORMAT                  output file format (default is autodetect by ext)
-                                     (rails_yaml, flat_yaml, po, pot, ios, android, csv)
+                                     (rails_yaml, flat_yaml, po, pot, ios, android, properties, csv)
     -l, --language LANGUAGE          input file language (only for po or rails_yaml output mode)
     -h, --help                       help
 

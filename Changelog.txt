@@ -1,3 +1,18 @@
+Changelog
+----------
+
+
+TODO: 1.0.0
+==================
++ Support for plural messages in rails_yaml format.
++ Translate Readme.txt and Design.txt to English
++ Add examples and docs for Locfile
+
+
+0.10.0 [2015-05-28]
+==================
+- Output dirs autocreation.
+- Added Java properties format.
 
 
 0.9.1 [2014-09-23]
