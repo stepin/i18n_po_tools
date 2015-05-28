@@ -1,4 +1,6 @@
 # coding: utf-8
+require 'fileutils'
+
 module I18nPoTools
   module Formats
     class BaseFormat
