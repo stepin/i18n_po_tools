@@ -1,4 +1,4 @@
-# encoding: utf-8
+# coding: utf-8
 #
 # From:
 # https://raw.githubusercontent.com/svenfuchs/i18n/master/test/test_data/locales/plurals.rb

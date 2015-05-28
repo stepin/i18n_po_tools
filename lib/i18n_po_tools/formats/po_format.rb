@@ -1,3 +1,4 @@
+# coding: utf-8
 require 'get_pomo'
 require 'i18n_po_tools/utils/po'
 require 'i18n_po_tools/utils/data'

@@ -1,3 +1,4 @@
+# coding: utf-8
 require 'i18n_po_tools/formats/base_format'
 require 'i18n_po_tools/formats/rails_yaml_format'
 require 'i18n_po_tools/formats/basic_flat_yaml_format'

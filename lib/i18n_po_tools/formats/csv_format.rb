@@ -1,3 +1,4 @@
+# coding: utf-8
 require 'csv'
 
 module I18nPoTools

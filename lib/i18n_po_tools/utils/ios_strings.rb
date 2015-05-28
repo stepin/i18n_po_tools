@@ -1,3 +1,4 @@
+# coding: utf-8
 # Format description:
 # https://developer.apple.com/library/mac/documentation/macosx/conceptual/bpinternational/Articles/StringsFiles.html
 #

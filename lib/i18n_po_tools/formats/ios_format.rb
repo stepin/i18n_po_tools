@@ -1,3 +1,4 @@
+# coding: utf-8
 require 'i18n_po_tools/utils/ios_strings'
 
 module I18nPoTools

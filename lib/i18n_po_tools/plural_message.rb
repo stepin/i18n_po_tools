@@ -1,3 +1,4 @@
+# coding: utf-8
 module I18nPoTools
   class PluralMessage
 

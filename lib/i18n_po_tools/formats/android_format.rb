@@ -1,3 +1,4 @@
+# coding: utf-8
 require 'nokogiri'
 
 module I18nPoTools

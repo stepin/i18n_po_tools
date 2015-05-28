@@ -1,3 +1,4 @@
+# coding: utf-8
 require 'java-properties'
 
 module I18nPoTools
