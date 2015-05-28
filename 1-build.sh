@@ -1,1 +1,2 @@
-gem build i18n_yml_tools.gemspec
+#gem bump --version minor
+rake build
