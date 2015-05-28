@@ -5,7 +5,10 @@ module I18nPoTools
   module Formats
     class PropertiesFormat < BaseFormat
       def read(input_filename)
-        h = JavaProperties.load(input_filename)
+        content = read_file(input_filename)
+        props = JavaProperties.parse(content)
+        h = {}
+        props.each{|key,value| h[key.to_s]=value }
         h
       end
 
